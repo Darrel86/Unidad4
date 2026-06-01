@@ -1,52 +1,35 @@
-# 🎬 Sistema de Contenido Audiovisual
+# Sistema de Contenido Audiovisual
 
-## 📌 Descripción del proyecto
+## Descripción
+Proyecto en Java que gestiona contenido audiovisual (películas) usando Programación Orientada a Objetos (POO) y arquitectura MVC.
 
-Este proyecto es un sistema de gestión de contenido audiovisual desarrollado en Java utilizando Programación Orientada a Objetos (POO).
+## Funcionalidades
+- Menú en consola
+- Agregar películas de prueba
+- Mostrar contenido almacenado
+- Estructura preparada para archivos (DAO)
 
-Permite gestionar información de películas (y preparado para series, documentales, etc.) aplicando arquitectura MVC, principios SOLID y manejo básico de datos.
-
----
-
-## 🏗️ Arquitectura del sistema
-
-El proyecto está organizado bajo el patrón **MVC (Modelo - Vista - Controlador)**:
-
-### 📦 Modelo (Model)
-- Contiene las clases de negocio como:
-  - `ContenidoAudiovisual` (clase abstracta)
-  - `Pelicula`
-
-### 🖥️ Vista (View)
-- `ConsolaView`
-- Maneja la interacción con el usuario mediante consola
-
-### 🎮 Controlador (Controller)
-- `ContenidoController`
-- Gestiona la lógica del sistema y conecta modelo con vista
-
-### 💾 DAO
-- `ArchivoManager`
-- Preparado para manejo de archivos (lectura y escritura de datos)
-
----
-
-## ⚙️ Funcionalidades
-
-- Menú interactivo en consola
-- Agregar contenido audiovisual (películas)
-- Mostrar contenido almacenado en memoria
-- Estructura preparada para persistencia en archivos
-- Uso de herencia y polimorfismo
-
----
-
-## 🧠 Tecnologías utilizadas
-
+## Tecnologías
 - Java
-- Programación Orientada a Objetos (POO)
-- MVC (Modelo - Vista - Controlador)
+- POO
+- MVC
 
----
+## Estructura del proyecto
+src/
+ ├── controller
+ ├── view
+ ├── dao
+ ├── main
+ └── uni1a
 
-## 📂 Estructura del proyecto
+## Cómo ejecutar
+Ejecutar la clase Main.java desde Eclipse o IntelliJ.
+
+## Ejemplo de uso
+===== SISTEMA AUDIOVISUAL =====
+1. Mostrar contenido
+2. Agregar película
+3. Salir
+
+## Autor
+Proyecto académico de Programación Orientada a Objetos
